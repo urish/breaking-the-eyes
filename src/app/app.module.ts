@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { VoterComponent } from './voter.component';
+import { StackOverflowComponent } from './stack-overflow/stack-overflow.component';
+import { VoterComponent } from './voter/voter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    StackOverflowComponent,
     VoterComponent
   ],
   imports: [
