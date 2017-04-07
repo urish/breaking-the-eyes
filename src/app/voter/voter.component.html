@@ -4,9 +4,11 @@
 
 <div class="voter">
   <div class="controls">
-    <span (click)="upvote()" class="vote-icon up"></span>
+    <span (click)="upvote()" class="vote-icon up"
+      tabindex=0 role="button" aria-label="Up vote"></span>
     <span>{{votes}}</span>
-    <span (click)="downvote()" class="vote-icon down"></span>
+    <span (click)="downvote()" class="vote-icon down"
+      tabindex=0 role="button" aria-label="Down vote"></span>
   </div>
   <div class="content">
     <ng-content></ng-content>

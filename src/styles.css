@@ -2,5 +2,8 @@
 
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  /* Uncomment the following line for accessibility testing */
+
   /*filter: blur(9px);*/
 }
