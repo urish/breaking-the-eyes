@@ -21,4 +21,11 @@ export class VoterComponent implements OnInit {
   downvote() {
     this.votes--;
   }
+
+  voteKeyDown($event: KeyboardEvent, vote: number) {
+    const key = $event.which;
+    if (key === 13 || key === 32) {
+      this.votes += vote;
+    }
+  }
 }
